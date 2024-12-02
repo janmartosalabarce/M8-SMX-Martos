@@ -1,0 +1,19 @@
+*{
+    background-color: rgb(226, 225, 225);
+}
+.imagen{
+    width: 700px;
+    padding-right: 13cm;
+    align-items: center;
+    gap: 10px;
+}
+.contenido-principal{
+    padding-left: 20cm;
+    gap: 10px;
+    align-items: center;
+    margin-right: 14cm;
+    
+}
+.lista{
+    padding-left: 21cm;
+}
