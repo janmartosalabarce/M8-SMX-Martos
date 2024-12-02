@@ -1,0 +1,27 @@
+.titulo{
+    font-size: xx-small;
+}
+.subtitulo{
+    font-size: 1cm;
+    padding-right: 39cm;
+}
+.texto{
+    padding-right: 39cm;
+}
+.imagen{
+    padding-left: 13cm;
+    width: 500px;
+}
+.final{
+    background-color: rgb(211, 211, 211);
+    font-size: xx-large;
+    text-align: center;
+    height: 180px;
+    padding-top: 100px;
+}
+.boton{
+    color: white;
+    background-color: rgb(91, 56, 247);
+    width: 140px;
+    height: 40px;
+}

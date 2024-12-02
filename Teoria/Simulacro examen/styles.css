@@ -1,0 +1,33 @@
+.lista1{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    color: white;
+}
+.nav1 {
+    background-color: gray;
+    padding: 1px;
+}
+.div1{
+    
+    
+}
+
+.div2{
+    margin-left: 1000px;
+    background-color: rgb(255, 196, 0);
+    padding: 45px;
+    color: rgb(255, 255, 255);
+    border: 0%;
+    border-radius: 10px;
+}
+.nav2{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/017/187/795/non_2x/luxury-gold-abstract-line-art-background-mountain-topographic-terrain-map-background-with-gold-lines-texture-design-illustration-for-wall-art-fabric-packaging-web-banner-app-wallpaper-vector.jpg)
+    
+
+}
+*{
+    padding: 0;
+    margin: 0;
+
+}
