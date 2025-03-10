@@ -208,22 +208,22 @@ footer {
       }
 
       #jocs-destacats {
-        text-align: center;  /* Centra el contenido de la sección */
-        margin: 50px auto;  /* Añadir un margen para separarlo de otros elementos */
+        text-align: center;  
+        margin: 50px auto;  
       }
       
       #jocs-destacats h2 {
-        font-size: 24px;  /* Tamaño de fuente del título */
-        color: white;  /* Color blanco para el texto */
+        font-size: 24px;  
+        color: white;  
       }
       
       .marco {
-        background-color: #333;  /* Fondo oscuro para el marco */
-        border-radius: 15px;  /* Bordes redondeados */
-        padding: 20px;  /* Espacio dentro del marco */
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);  /* Sombra suave alrededor del marco */
-        max-width: 1000px;  /* Ancho máximo del marco */
-        margin: 20px auto;  /* Centrado y márgenes automáticos */
+        background-color: #333; 
+        border-radius: 15px;  
+        padding: 20px;  
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);  
+        max-width: 1000px;  
+        margin: 20px auto;  
       }
       
       .cards-container {
