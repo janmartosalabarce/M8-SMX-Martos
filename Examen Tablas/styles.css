@@ -1,0 +1,271 @@
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0f1923;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1a2a3a;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    color: #ff4655;
+    margin: 0;
+    padding-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#hero {
+    background: url('https://st2.depositphotos.com/8843414/12482/v/450/depositphotos_124824752-stock-illustration-abstract-red-frame-with-steel.jpg') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 100px 20px;
+    color: white;
+}
+
+#hero h2 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 1.2em;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+#hero button {
+    background-color: #ff4655;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#hero button:hover {
+    background-color: #d13a47;
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+#horaris table {
+    width: 50%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+#horaris th, #horaris td {
+    border: 1px solid white;
+    padding: 10px;
+}
+
+#inscripcio form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#inscripcio input {
+    margin: 10px 0;
+    padding: 10px;
+}
+
+button {
+    background-color: #ff4655;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d13a47;
+}
+
+footer {
+    background-color: #1a2a3a;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+#patrocinadors .logos img {
+    width: 100px;
+    height: auto;
+    margin: 10px;
+}
+
+#horaris table {
+    width: 80%;  
+    margin: 20px auto; 
+    border-radius: 10px; 
+    overflow: hidden; 
+  }
+  
+  #horaris th, #horaris td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid transparent; 
+  }
+  
+  #horaris th {
+    background-color: #ff4655; 
+    color: white; 
+  }
+  
+  #horaris tbody tr {
+    background-color: #284058; 
+  }
+
+    #inscripcio {
+        width: 100%;
+        max-width: 400px;  
+        margin: 50px auto;  
+        padding: 15px;  
+    background-color: #090f16;   
+        border-radius: 10px;  
+        color: white;  
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);  
+      }
+      
+      #inscripcio h2 {
+        text-align: center;
+        margin-bottom: 20px;  
+      }
+      
+      #inscripcio form {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      #inscripcio input, 
+      #inscripcio textarea, 
+      #inscripcio select, 
+      #inscripcio button {
+        margin-bottom: 15px;  
+        padding: 10px;
+        border: none;  
+        border-radius: 10px;  
+    background-color: #0f1923;  
+        color: white;  
+      }
+      
+      #inscripcio select {
+        background-color: #0f1923;  
+        color: white; 
+        cursor: pointer; 
+      }
+      
+      #inscripcio input:focus, 
+      #inscripcio textarea:focus, 
+      #inscripcio select:focus {
+        background-color: #0f1923;    
+        outline: none; 
+      }
+      
+      #inscripcio button {
+        background-color: #e60000;  
+        color: white;  
+        cursor: pointer;  
+        font-weight: bold;
+        transition: background-color 0.3s ease;  
+      }
+      
+      #inscripcio button:hover {
+        background-color: #cc0000;  
+      }
+
+      #jocs-destacats {
+        text-align: center;  /* Centra el contenido de la sección */
+        margin: 50px auto;  /* Añadir un margen para separarlo de otros elementos */
+      }
+      
+      #jocs-destacats h2 {
+        font-size: 24px;  /* Tamaño de fuente del título */
+        color: white;  /* Color blanco para el texto */
+      }
+      
+      .marco {
+        background-color: #333;  /* Fondo oscuro para el marco */
+        border-radius: 15px;  /* Bordes redondeados */
+        padding: 20px;  /* Espacio dentro del marco */
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);  /* Sombra suave alrededor del marco */
+        max-width: 1000px;  /* Ancho máximo del marco */
+        margin: 20px auto;  /* Centrado y márgenes automáticos */
+      }
+      
+      .cards-container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+      }
+      
+      .card {
+        background-color: #284058;  
+        border-radius: 10px; 
+        padding: 15px;
+        text-align: center;
+        width: 250px;
+        margin: 15px; 
+        color: white;
+      }
+      
+      .card img {
+        max-width: 100%;
+        border-radius: 10px;  
+      }
+      
+      .card h3 {
+        margin: 10px 0;
+        font-size: 20px;
+      }
+      
+      .card p {
+        font-size: 16px;
+      }
+      
+      .card button {
+        background-color: #e60000;
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      
+      .card button:hover {
+        background-color: #cc0000; 
+      }
