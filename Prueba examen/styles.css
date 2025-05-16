@@ -1,0 +1,69 @@
+html{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(https://wallpapers.com/images/hd/plain-pink-desktop-h1269gvo5ka54d2d.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+
+.header{
+    background-color: rgb(255, 105, 155);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.nav{
+    display: flex;
+    gap: 20px;
+}
+
+.opciones{
+    display: flex;
+    gap: 100px;
+    padding-right: 100px;
+}
+
+.opciones a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+
+.titulo{
+    display: flex;
+    padding-left: 100px;
+}
+
+
+.formulario{
+    border: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-right: 40px;
+    gap: 10px;
+}
+
+.formulario-total{
+    background-color: rgb(233, 151, 192);
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: 200px;
+}
+
+
+.boton{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 105, 155);
+}
